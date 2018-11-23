@@ -10,9 +10,10 @@ public class Spawner : MonoBehaviour {
     {
         int i = Random.Range(0, groups.Length);
 
-        Instantiate(groups[i],
+        Group group = Instantiate(groups[i],
             transform.position,
-            Quaternion.identity);
+            Quaternion.identity).GetComponent<Group>();
+        group.Spawner = this;
     }
 
 	// Use this for initialization

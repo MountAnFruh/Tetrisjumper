@@ -21,6 +21,12 @@ public class Grid : MonoBehaviour {
                 (int)pos.y >= 0);
     }
 
+    public static Vector2 getRelativeToSpawner(Vector2 pos, Spawner spawner)
+    {
+        return new Vector2(pos.x - spawner.transform.position.x + w / 2,
+                           pos.y - spawner.transform.position.y + h - 1);
+    }
+
     public static void deleteRow(int y)
     {
         for (int x = 0; x < w; ++x)

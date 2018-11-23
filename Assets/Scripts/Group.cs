@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Group : MonoBehaviour
 {
+    // Gebraucht um Grid relativ vom Spawner zu setzen
+    public Spawner Spawner { get; set; }
 
     // Time since last gravity tick
     float lastFall = 0;
@@ -12,11 +14,15 @@ public class Group : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            Vector2 v = Grid.roundVec2(child.position);
+            Debug.Log("not rounded: " + child.position);
+            Vector2 v = Grid.getRelativeToSpawner(Grid.roundVec2(child.position), Spawner);
+
+            Debug.Log(v);
 
             // Not inside Border?
             if (!Grid.insideBorder(v))
                 return false;
+            Debug.Log(v + " " + Spawner.transform.position);
 
             // Block in grid cell (and not part of same group)?
             if (Grid.grid[(int)v.x, (int)v.y] != null &&
@@ -38,7 +44,7 @@ public class Group : MonoBehaviour
         // Add new children to grid
         foreach (Transform child in transform)
         {
-            Vector2 v = Grid.roundVec2(child.position);
+            Vector2 v = Grid.getRelativeToSpawner(Grid.roundVec2(child.position), Spawner);
             Grid.grid[(int)v.x, (int)v.y] = child;
         }
     }

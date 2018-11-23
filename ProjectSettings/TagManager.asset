@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Border_Jumpman
+  - Death
+  - Floor_Jumpman
+  - Ground_Jumpman
+  - Healer_Jumpman
   layers:
   - Default
   - TransparentFX
