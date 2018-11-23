@@ -1,0 +1,1571 @@
+fileFormatVersion: 2
+guid: d030203aa640c8f4684c4e5dc8536b4f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_0
+    21300002: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_1
+    21300004: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_2
+    21300006: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_3
+    21300008: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_4
+    21300010: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_5
+    21300012: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_6
+    21300014: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_7
+    21300016: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_8
+    21300018: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_9
+    21300020: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_10
+    21300022: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_11
+    21300024: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_12
+    21300026: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_13
+    21300028: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_14
+    21300030: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_15
+    21300032: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_16
+    21300034: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_17
+    21300036: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_18
+    21300038: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_19
+    21300040: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_20
+    21300042: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_21
+    21300044: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_22
+    21300046: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_23
+    21300048: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_24
+    21300050: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_25
+    21300052: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_26
+    21300054: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_27
+    21300056: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_28
+    21300058: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_29
+    21300060: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_30
+    21300062: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_31
+    21300064: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_32
+    21300066: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_33
+    21300068: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_34
+    21300070: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_35
+    21300072: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_36
+    21300074: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_37
+    21300076: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_38
+    21300078: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_39
+    21300080: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_40
+    21300082: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_41
+    21300084: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_42
+    21300086: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_43
+    21300088: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_44
+    21300090: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_45
+    21300092: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_46
+    21300094: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_47
+    21300096: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_48
+    21300098: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_49
+    21300100: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_50
+    21300102: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_51
+    21300104: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_52
+    21300106: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_53
+    21300108: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_54
+    21300110: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_55
+    21300112: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_56
+    21300114: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_57
+    21300116: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_58
+    21300118: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_59
+    21300120: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_60
+    21300122: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_61
+    21300124: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_62
+    21300126: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_63
+    21300128: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_64
+    21300130: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_65
+    21300132: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_66
+    21300134: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_67
+    21300136: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_68
+    21300138: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_69
+    21300140: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_70
+    21300142: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_71
+    21300144: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_72
+    21300146: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_73
+    21300148: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_74
+    21300150: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_75
+    21300152: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_76
+    21300154: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_77
+    21300156: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_78
+    21300158: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_79
+    21300160: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_80
+    21300162: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_81
+    21300164: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_82
+    21300166: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_83
+    21300168: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_84
+    21300170: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_85
+    21300172: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_86
+    21300174: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_87
+    21300176: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_88
+    21300178: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_89
+    21300180: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_90
+    21300182: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_91
+    21300184: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_92
+    21300186: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_93
+    21300188: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_94
+    21300190: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos &
+      Gems_95
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6927f1175ad25194e9332dd703ce4a8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2092ffde6df53cc43ab5b9ac72fa9e62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d04c5e70fa25749a32033107e20d55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4be81e71c9fad43a4f7ce80981a117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a767d3ba3450fd7488b4dcbab0e4c665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1099221b594f7024b9a8a848d8f7ed8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00365d5377eedba449ee11f26fd24f3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87bc301b7297df4c8683fc7b93fef05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6af8bb35a82ae34d8b5cfd739ec189c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd161d7e574fe24aba2c7eaead08240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4f2dfc5bc454843aa20744dddc4003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25d84a6657dc6147bd7902a355f8c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa53986261dd830428c64f40cbc31342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2c295ec80268942a18aa22f2b86a0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e89be6db530424479bca80fa9d408b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f2ca60184eb50489401ef38a50045f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec9861af2c9d54cb5d42c06b4279b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b059cd7012dfe54b86bab0f55c3b4c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83f798214a84214c97e678ae22e1f51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfb0cc238379814e8436c362b689556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e977c6c6bf1b2489752c92cbc1a139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06165c99cf2a25a449514776c3625e30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_22
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2bc80a667fda543ac00304d7a251c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_23
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5d45497b2dc6348bdffbe4d510f276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e892b4048dfbf49923d4d7fce4a619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8f43300e120b745a3eafc32338d90b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8825666b13c56094a9311369c43876c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75f3ad6fb7013143aae031399c2018e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cbe886216be164e9daed1a8568564e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5c001c40a5a2847aa1b587e6be68cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54ab9d214899914dbdcda3bd6e38f4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79728551545c1dd46b4e331a290931a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7368e0ec39efa9143ae01af9ab39f57a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_49
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e950f0fdd7c484e4eba6914fd65b2866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e6ee6aa37bad046ac596e19016cd6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_51
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf7ad16cbd6ec74dace9da6f09185ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca68f6b79b2f9f046a53b116c1a62008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51314d700075024a9fbbcc57ef65bd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cb0feea231bd24e9bb2176a0b16f4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0744412db1a5f5c4384b8142fde85abe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_56
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5279dad69d9d6344a984e10549c6d04e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_57
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ab9592a28d8194b9ae61c13188736c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_58
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fabbd6130f15ce418477d21b776d1b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_59
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b813bcc9764249b578d58b1a430b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65185c76875af874aa3304eecc14f4b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e75c2e6cf68b6b4bb086dcb23e275f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_62
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851e0e89d2f94444b9d0e7bd6f9bb829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967379d6838e7824f8623eb41f86658d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_64
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4fef20cc17b8a42bc08203e4ec3bca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1705fb5c519035d469ac91e171303423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c70b3be19f8eac4b906f330a94cf8db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_67
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77492820eb74b7d4493744806f7dec42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_68
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16363ea07b77284482fdd1025a6027c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_69
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b98dc4a200291489f080822f057ecb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_70
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3773816722b876741bba10af04867df1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_71
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953e7edff7cff924d8638e5c541d2b48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b3e3004f6c9f34aa644f0966ec3892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_73
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62b7d9700e5d2e449fcb1de271ec937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_74
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7134c8d2c2e7d09409552f96ddd6202b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_75
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc93d42e2484a21449c84cd8e93f9e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e22e7e22d935cd46b12e82157163eaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_85
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019a489f7a2b8cd4d837ad88124bc985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_86
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb2b63050b2dff4eabd5410ec4ec1f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Tetris The Grand Master 3 - Terror-Instinct - Tetrominos & Gems_87
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e0f01e4aa590449c3d1b172945686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 327947f2e236550478a359e1077def7f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
