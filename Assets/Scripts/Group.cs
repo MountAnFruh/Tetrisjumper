@@ -14,15 +14,11 @@ public class Group : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            Debug.Log("not rounded: " + child.position);
             Vector2 v = Grid.getRelativeToSpawner(Grid.roundVec2(child.position), Spawner);
-
-            Debug.Log(v);
 
             // Not inside Border?
             if (!Grid.insideBorder(v))
                 return false;
-            Debug.Log(v + " " + Spawner.transform.position);
 
             // Block in grid cell (and not part of same group)?
             if (Grid.grid[(int)v.x, (int)v.y] != null &&

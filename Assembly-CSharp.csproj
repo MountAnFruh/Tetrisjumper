@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Grid.cs" />
     <Compile Include="Assets\Scripts\Group.cs" />
     <Compile Include="Assets\Scripts\Jumpman.cs" />
+    <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/w4y-cloud/Schultasche/5AHIF/VERT/Tetrisjumper/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
