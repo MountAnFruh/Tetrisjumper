@@ -27,6 +27,10 @@ public class Jumpman : MonoBehaviour {
 
     public bool InHealer { get; set; }
 
+    public bool JumpDisabled { get; set; }
+
+    public bool OnLadder { get; set; }
+
 	// Use this for initialization
 	void Start () {
         body = GetComponent<Rigidbody2D>();
@@ -61,7 +65,8 @@ public class Jumpman : MonoBehaviour {
         }
         if(Dead)
         {
-            transform.localPosition += new Vector3(moveHorizontal * dead_speed, 0);
+            //transform.localPosition += new Vector3(moveHorizontal * dead_speed, 0);
+            body.AddForce(new Vector2(0, moveHorizontal * dead_speed));
         }
         else
         {
@@ -71,7 +76,7 @@ public class Jumpman : MonoBehaviour {
 
         if (jumpCooldown <= 0)
         {
-            if (jump && (OnGround || Dead))
+            if (jump && (OnGround || Dead) && !JumpDisabled)
             {
                 float v0 = Mathf.Sqrt(2 * jumpHeight * Mathf.Abs(Physics2D.gravity.y));
                 Vector2 vel = body.velocity;
@@ -148,6 +153,8 @@ public class Jumpman : MonoBehaviour {
                     Dead = true;
                     animator.SetBool("dead", Dead);
                     body.constraints = RigidbodyConstraints2D.None;
+                    JumpDisabled = false;
+                    body.isKinematic = false;
                     return;
                 }
             }

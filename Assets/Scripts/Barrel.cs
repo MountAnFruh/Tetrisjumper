@@ -11,7 +11,6 @@ public class Barrel : MonoBehaviour {
 	void Start () {
         transform = GetComponent<Transform>();
         rigidbody2D = GetComponent<Rigidbody2D>();
-        rigidbody2D.AddForce(new Vector2(150, 0));
 
         GameObject[] gameObjs = GameObject.FindGameObjectsWithTag(ignore_tag);
         for (int i = 0; i < gameObjs.Length; i++)

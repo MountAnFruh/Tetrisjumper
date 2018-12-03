@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Barrel.cs" />
+    <Compile Include="Assets\Scripts\BarrelSpawner.cs" />
     <Compile Include="Assets\Scripts\Grid.cs" />
     <Compile Include="Assets\Scripts\Group.cs" />
     <Compile Include="Assets\Scripts\Jumpman.cs" />
