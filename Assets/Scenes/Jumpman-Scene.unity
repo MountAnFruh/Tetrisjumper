@@ -578,6 +578,13 @@ MonoBehaviour:
   - {fileID: 1980657745570532, guid: 7cd2b2c8937eaca4dbff0f2a1e66d25f, type: 2}
   - {fileID: 1100528237521572, guid: 4dac7b0a1a540e44eb386de6158f5e7d, type: 2}
   - {fileID: 1913707710673014, guid: 77e0ef9682b2f0744998915d797cbc86, type: 2}
+  history: 04000000040000000600000006000000
+  nextQueue: 00000000000000000000000000000000
+  nextQueueObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &374954980
 Transform:
   m_ObjectHideFlags: 0

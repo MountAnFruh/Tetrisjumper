@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Group : MonoBehaviour
 {
-    // Gebraucht um Grid relativ vom Spawner zu setzen
     public Spawner Spawner { get; set; }
 
     // Time since last gravity tick
     float lastFall = 0;
+    float inputStart = 0;
 
     bool isValidGridPos()
     {
@@ -60,7 +60,8 @@ public class Group : MonoBehaviour
     void FixedUpdate()
     {
         // Move Left
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) ||
+            Input.GetKey(KeyCode.LeftArrow) && Time.time - inputStart >= 0.33)
         {
             // Modify position
             transform.position += new Vector3(-1, 0, 0);
@@ -72,10 +73,14 @@ public class Group : MonoBehaviour
             else
                 // It's not valid. revert.
                 transform.position += new Vector3(1, 0, 0);
+
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+                inputStart = Time.time;
         }
 
         // Move Right
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKeyDown(KeyCode.RightArrow) ||
+                 Input.GetKey(KeyCode.RightArrow) && Time.time - inputStart >= 0.33)
         {
             // Modify position
             transform.position += new Vector3(1, 0, 0);
@@ -87,24 +92,21 @@ public class Group : MonoBehaviour
             else
                 // It's not valid. revert.
                 transform.position += new Vector3(-1, 0, 0);
+
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+                inputStart = Time.time;
         }
 
         // Rotate
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            transform.Rotate(0, 0, -90);
-
-            // See if valid
-            if (isValidGridPos())
-                // It's valid. Update grid.
-                updateGrid();
-            else
-                // It's not valid. revert.
-                transform.Rotate(0, 0, 90);
+            rotateTetromino(transform);
+                
         }
 
         // Move Downwards and Fall
         else if (Input.GetKeyDown(KeyCode.DownArrow) ||
+                 Input.GetKey(KeyCode.DownArrow) && Time.time - inputStart >= 0.33 ||
                  Time.time - lastFall >= 0.33)
         {
             // Modify position
@@ -132,6 +134,32 @@ public class Group : MonoBehaviour
             }
 
             lastFall = Time.time;
+
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+                inputStart = Time.time;
+        }
+    }
+
+    void rotateTetromino(Transform transform)
+    {
+        transform.Rotate(0, 0, -90);
+        foreach (Transform child in transform)
+        {
+            child.Rotate(0, 0, 90);
+        }
+
+        // See if valid
+        if (isValidGridPos())
+            // It's valid. Update grid.
+            updateGrid();
+        else
+        {
+            // It's not valid. revert.
+            transform.Rotate(0, 0, 90);
+            foreach (Transform child in transform)
+            {
+                child.Rotate(0, 0, -90);
+            }
         }
     }
 }
