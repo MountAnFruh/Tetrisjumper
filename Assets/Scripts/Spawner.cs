@@ -76,6 +76,11 @@ public class Spawner : MonoBehaviour {
         nextQueueObjects[3].GetComponent<Group>().enabled = false;
     }
 
+    public void hold()
+    {
+
+    }
+
     public void spawnNext()
     {
         int i = nextQueue[0];

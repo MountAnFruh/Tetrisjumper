@@ -8,6 +8,7 @@ public class Group : MonoBehaviour
 
     // Time since last gravity tick
     float lastFall = 0;
+    float lastSoftDrop = 0;
     float inputStart = 0;
 
     bool isValidGridPos()
@@ -57,11 +58,11 @@ public class Group : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         // Move Left
-        if (Input.GetKeyDown(KeyCode.LeftArrow) ||
-            Input.GetKey(KeyCode.LeftArrow) && Time.time - inputStart >= 0.33)
+        if ((Input.GetKeyDown(KeyCode.LeftArrow) ||
+            Input.GetKey(KeyCode.LeftArrow) && Time.time - inputStart >= 0.33) && !Input.GetKey(KeyCode.RightArrow))
         {
             // Modify position
             transform.position += new Vector3(-1, 0, 0);
@@ -79,8 +80,8 @@ public class Group : MonoBehaviour
         }
 
         // Move Right
-        else if (Input.GetKeyDown(KeyCode.RightArrow) ||
-                 Input.GetKey(KeyCode.RightArrow) && Time.time - inputStart >= 0.33)
+        else if ((Input.GetKeyDown(KeyCode.RightArrow) ||
+                 Input.GetKey(KeyCode.RightArrow) && Time.time - inputStart >= 0.33) && !Input.GetKey(KeyCode.LeftArrow))
         {
             // Modify position
             transform.position += new Vector3(1, 0, 0);
@@ -98,16 +99,30 @@ public class Group : MonoBehaviour
         }
 
         // Rotate
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.Y))
         {
-            rotateTetromino(transform);
-                
+            rotateTetromino(transform, 90);
         }
 
-        // Move Downwards and Fall
-        else if (Input.GetKeyDown(KeyCode.DownArrow) ||
-                 Input.GetKey(KeyCode.DownArrow) && Time.time - inputStart >= 0.33 ||
-                 Time.time - lastFall >= 0.33)
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            rotateTetromino(transform, -90);
+        }
+
+        // Hard Drop
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            while (isValidGridPos())
+            {
+                transform.position += new Vector3(0, -1, 0);
+            }
+            transform.position += new Vector3(0, 1, 0);
+            updateGrid();
+        }
+
+        // Soft Drop and Fall
+        if (Input.GetKey(KeyCode.DownArrow) && Time.time - lastSoftDrop >= 0.2 ||
+                 Time.time - lastFall >= 1)
         {
             // Modify position
             transform.position += new Vector3(0, -1, 0);
@@ -134,18 +149,17 @@ public class Group : MonoBehaviour
             }
 
             lastFall = Time.time;
-
-            if (Input.GetKeyDown(KeyCode.DownArrow))
-                inputStart = Time.time;
+            if (Input.GetKey(KeyCode.DownArrow))
+                lastSoftDrop = Time.time;
         }
     }
 
-    void rotateTetromino(Transform transform)
+    void rotateTetromino(Transform transform, int rotation)
     {
-        transform.Rotate(0, 0, -90);
+        transform.Rotate(0, 0, rotation);
         foreach (Transform child in transform)
         {
-            child.Rotate(0, 0, 90);
+            child.Rotate(0, 0, -rotation);
         }
 
         // See if valid
@@ -155,10 +169,10 @@ public class Group : MonoBehaviour
         else
         {
             // It's not valid. revert.
-            transform.Rotate(0, 0, 90);
+            transform.Rotate(0, 0, -rotation);
             foreach (Transform child in transform)
             {
-                child.Rotate(0, 0, -90);
+                child.Rotate(0, 0, rotation);
             }
         }
     }
