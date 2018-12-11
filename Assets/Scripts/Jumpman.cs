@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Jumpman : MonoBehaviour {
 
@@ -11,6 +12,8 @@ public class Jumpman : MonoBehaviour {
     public string[] floor_tags = new string[] { "Floor_Jumpman", "Ground_Jumpman" };
     public string[] border_tags = new string[] { "Border_Jumpman" };
     public string[] death_tags = new string[] { "Death" };
+    public List<GameObject> life_objs;
+    public Text winText;
     public float speed = 0.05f;
     public float dead_speed = 0.005f;
     public float jumpHeight = 1f;
@@ -62,16 +65,16 @@ public class Jumpman : MonoBehaviour {
                 scale.x *= moveHorizontal > 0 ? -1 : 1;
             }
             transform.localScale = scale;
-        }
-        if(Dead)
-        {
-            //transform.localPosition += new Vector3(moveHorizontal * dead_speed, 0);
-            body.AddForce(new Vector2(0, moveHorizontal * dead_speed));
-        }
-        else
-        {
-            transform.localPosition += new Vector3(moveHorizontal * speed, 0);
-            //body.MovePosition(body.position + new Vector2(moveHorizontal * speed, 0));
+            if (Dead)
+            {
+                //transform.localPosition += new Vector3(moveHorizontal * dead_speed, 0);
+                body.AddForce(new Vector2(moveHorizontal * 3, 0));
+            }
+            else
+            {
+                transform.localPosition += new Vector3(moveHorizontal * speed, 0);
+                //body.MovePosition(body.position + new Vector2(moveHorizontal * speed, 0));
+            }
         }
 
         if (jumpCooldown <= 0)
@@ -140,6 +143,10 @@ public class Jumpman : MonoBehaviour {
         {
             InHealer = true;
         }
+        if(collider.tag == "Winner_Jumpman")
+        {
+            GameOver(true);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -152,6 +159,16 @@ public class Jumpman : MonoBehaviour {
                 {
                     Dead = true;
                     animator.SetBool("dead", Dead);
+                    if(life_objs.ToArray().Length != 0)
+                    {
+
+                        Destroy(life_objs[life_objs.ToArray().Length - 1]);
+                        life_objs.RemoveAt(life_objs.ToArray().Length - 1);
+                    } else
+                    {
+                        GameOver(false);
+                        return;
+                    }
                     body.constraints = RigidbodyConstraints2D.None;
                     JumpDisabled = false;
                     body.isKinematic = false;
@@ -159,6 +176,20 @@ public class Jumpman : MonoBehaviour {
                 }
             }
         }
+    }
+
+    void GameOver(bool win)
+    {
+        Time.timeScale = 0;
+        if(win)
+        {
+            winText.text = "JUMPMAN WON!";
+        }
+        else
+        {
+            winText.text = "TETRISMAN WON!";
+        }
+        winText.enabled = true;
     }
 
     void OnTriggerExit2D(Collider2D collider)

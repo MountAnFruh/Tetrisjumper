@@ -78,21 +78,18 @@ public class Ladder : MonoBehaviour
             bool crouch = Input.GetAxis("Jumpman_Crouch") == 1;
             if (currJumpman != null && !currJumpman.Dead)
             {
-                Debug.Log("IFSS " + jump + " " + crouch + " " + currJumpman.OnLadder);
-                if ((jump || crouch) && !currJumpman.OnLadder && currJumpman.OnGround)
+                if (jump && !currJumpman.OnLadder && currJumpman.OnGround)
                 {
-                    Debug.Log("SET PARAMETERS");
+                    currJumpman.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                     currJumpman.GetComponent<Rigidbody2D>().isKinematic = true;
                     currJumpman.OnLadder = true;
-                    currJumpman.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                 }
 
-                if (jump)
+                if (jump && currJumpman.OnLadder)
                 {
-                    Debug.Log("JUMPPP");
                     currJumpman.GetComponent<Rigidbody2D>().MovePosition(currJumpman.GetComponent<Rigidbody2D>().position + new Vector2(0, 0.05f));
                 }
-                else if (crouch)
+                else if (crouch && currJumpman.OnLadder)
                 {
                     currJumpman.GetComponent<Rigidbody2D>().MovePosition(currJumpman.GetComponent<Rigidbody2D>().position - new Vector2(0, 0.05f));
                 }
