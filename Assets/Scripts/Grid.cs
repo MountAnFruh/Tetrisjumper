@@ -5,7 +5,7 @@ using UnityEngine;
 public class Grid : MonoBehaviour {
 
     public static int w = 10;
-    public static int h = 20;
+    public static int h = 24;
     public static Transform[,] grid = new Transform[w, h];
 
     public static Vector2 roundVec2(Vector2 v)
@@ -60,7 +60,7 @@ public class Grid : MonoBehaviour {
         return true;
     }
 
-    public static void deleteFullRows()
+    public static void deleteFullRows(BarrelSpawner barrel)
     {
         for (int y = 0; y < h; ++y)
         {
@@ -69,13 +69,14 @@ public class Grid : MonoBehaviour {
                 deleteRow(y);
                 decreaseRowsAbove(y + 1);
                 --y;
+                barrel.DropBarrel();
             }
         }
     }
 
     public static Vector2 getRelativeToSpawner(Vector2 pos, Spawner spawner)
     {
-        return new Vector2(pos.x - spawner.transform.position.x + w / 2,
-                           pos.y - spawner.transform.position.y + h - 1);
+        return new Vector2(pos.x - spawner.transform.position.x + w / 2 - 1,
+                           pos.y - spawner.transform.position.y + h - 4);
     }
 }

@@ -10,6 +10,9 @@ public class Group : MonoBehaviour
     float lastFall = 0;
     float lastSoftDrop = 0;
     float inputStart = 0;
+    bool groundSnap = false;
+    int counter = 0;
+
 
     bool isValidGridPos()
     {
@@ -49,6 +52,16 @@ public class Group : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
+        if (transform.name.Contains("GroupI"))
+        {
+            transform.Rotate(0, 0, 180);
+            foreach (Transform child in transform)
+            {
+                child.Rotate(0, 0, 180);
+            }
+            transform.position += new Vector3(1, 0, 0);
+        }
         // Default position not valid? Then it's game over
         if (!isValidGridPos())
         {
@@ -139,10 +152,11 @@ public class Group : MonoBehaviour
                 transform.position += new Vector3(0, 1, 0);
 
                 // Clear filled horizontal lines
-                Grid.deleteFullRows();
+                Grid.deleteFullRows(Spawner.barrel);
 
                 // Spawn next Group
                 FindObjectOfType<Spawner>().spawnNext();
+                counter = 0;
 
                 // Disable script
                 enabled = false;
@@ -154,26 +168,178 @@ public class Group : MonoBehaviour
         }
     }
 
+    private bool checkForWallKicks(Transform transfrom)
+    {
+        // Modify position
+        transform.position += new Vector3(1, 0, 0);
+
+        // See if valid
+        if (isValidGridPos())
+        {
+            // It's valid. Update grid.
+            updateGrid();
+        }
+        else
+        {
+            // It's not valid. revert.
+            transform.position += new Vector3(-2, 0, 0);
+            // See if valid
+            if (isValidGridPos())
+            {
+                // It's valid. Update grid.
+                updateGrid();
+            }
+            else
+            {
+                transform.position += new Vector3(1, 0, 0);
+                return false;
+            }
+        }
+        return true;
+    }
+
     void rotateTetromino(Transform transform, int rotation)
     {
+
+        string tetrominoName = transform.name;
+        bool allowRotation = true;
+
+        if (tetrominoName.Contains("GroupZ"))
+        {
+            if (counter % 2 == 0)
+                rotation = 90;
+            else
+                rotation = -90;
+            counter++;
+        }
+        if (tetrominoName.Contains("GroupS"))
+        {
+            if (counter % 2 == 0)
+                rotation = -90;
+            else
+                rotation = 90;
+            counter++;
+        }
+        if (tetrominoName.Contains("GroupI"))
+        {
+            if (counter % 2 == 0)
+                rotation = 90;
+            else
+                rotation =-90;
+            counter++;
+        }
+        if (tetrominoName.Contains("GroupO"))
+        {
+            rotation = 0;
+        }
+
         transform.Rotate(0, 0, rotation);
         foreach (Transform child in transform)
         {
             child.Rotate(0, 0, -rotation);
         }
 
-        // See if valid
-        if (isValidGridPos())
-            // It's valid. Update grid.
-            updateGrid();
-        else
+        if (tetrominoName.Contains("GroupL") || tetrominoName.Contains("GroupJ") || tetrominoName.Contains("GroupT"))
         {
-            // It's not valid. revert.
-            transform.Rotate(0, 0, -rotation);
-            foreach (Transform child in transform)
+            if (groundSnap == true)
             {
-                child.Rotate(0, 0, rotation);
+                // Modify position
+                transform.position += new Vector3(0, 1, 0);
+
+                // See if valid
+                if (isValidGridPos())
+                {
+                    // It's valid. Update grid.
+                    updateGrid();
+                    groundSnap = false;
+                }
+                else if (checkForWallKicks(transform))
+                    groundSnap = false;
+                else
+                {
+                    // It's not valid. revert.
+                    transform.position += new Vector3(0, -1, 0);
+                    transform.Rotate(0, 0, -rotation);
+                    foreach (Transform child in transform)
+                    {
+                        child.Rotate(0, 0, rotation);
+                    }
+
+                    allowRotation = false;
+                }
+            }
+            if (rotation == 90 && allowRotation)
+                counter++;
+            else if (allowRotation)
+                counter--;
+            if (counter%4 == 2 || counter%4 == -2)
+            {
+                // Modify position
+                transform.position += new Vector3(0, -1, 0);
+
+                // See if valid
+                if (isValidGridPos())
+                {
+                    // It's valid. Update grid.
+                    updateGrid();
+                    groundSnap = true;
+                }
+                else if (checkForWallKicks(transform))
+                    groundSnap = true;
+                else
+                {
+                    // It's not valid. revert.
+                    transform.position += new Vector3(0, 1, 0);
+                    transform.Rotate(0, 0, -rotation);
+                    foreach (Transform child in transform)
+                    {
+                        child.Rotate(0, 0, rotation);
+                    }
+                    if (counter > 0)
+                        counter--;
+                    else
+                        counter++;
+                }
+            }
+            else
+            {
+                // See if valid
+                if (isValidGridPos())
+                {
+                    // It's valid. Update grid.
+                    updateGrid();
+                }
+                else if (checkForWallKicks(transform)) ;
+                else
+                {
+                    transform.Rotate(0, 0, -rotation);
+                    foreach (Transform child in transform)
+                    {
+                        child.Rotate(0, 0, rotation);
+                    }
+                }
             }
         }
+
+        if (tetrominoName.Contains("GroupS") || tetrominoName.Contains("GroupZ") || tetrominoName.Contains("GroupI"))
+        {
+            // See if valid
+            if (isValidGridPos())
+            {
+                // It's valid. Update grid.
+                updateGrid();
+            }
+            else if (checkForWallKicks(transform)) ;
+            else
+            {
+                counter--;
+                transform.Rotate(0, 0, -rotation);
+                foreach (Transform child in transform)
+                {
+                    child.Rotate(0, 0, rotation);
+                }
+            }
+        }
+        
     }
 }

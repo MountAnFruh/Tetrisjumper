@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour {
     public int[] history = new int[4] { 4,4,6,6 };
     public int[] nextQueue = new int[4];
     public GameObject[] nextQueueObjects = new GameObject[4];
+    public BarrelSpawner barrel;
 
     public int randomizer()
     {
@@ -86,7 +87,7 @@ public class Spawner : MonoBehaviour {
         int i = nextQueue[0];
         addToNextQueue();
         showNextQueue();
-        Debug.Log(nextQueue[0] + " " + nextQueue[1] + " " + nextQueue[2] + " " + nextQueue[3]);
+        //Debug.Log(nextQueue[0] + " " + nextQueue[1] + " " + nextQueue[2] + " " + nextQueue[3]);
 
         Group group = Instantiate(groups[i],
             transform.position,
