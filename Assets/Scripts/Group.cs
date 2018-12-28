@@ -74,8 +74,8 @@ public class Group : MonoBehaviour
     void Update()
     {
         // Move Left
-        if ((Input.GetKeyDown(KeyCode.LeftArrow) ||
-            Input.GetKey(KeyCode.LeftArrow) && Time.time - inputStart >= 0.33) && !Input.GetKey(KeyCode.RightArrow))
+        if ((Input.GetKeyDown(KeyCode.J) ||
+            Input.GetKey(KeyCode.J) && Time.time - inputStart >= 0.33) && !Input.GetKey(KeyCode.L))
         {
             // Modify position
             transform.position += new Vector3(-1, 0, 0);
@@ -88,13 +88,13 @@ public class Group : MonoBehaviour
                 // It's not valid. revert.
                 transform.position += new Vector3(1, 0, 0);
 
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            if (Input.GetKeyDown(KeyCode.J))
                 inputStart = Time.time;
         }
 
         // Move Right
-        else if ((Input.GetKeyDown(KeyCode.RightArrow) ||
-                 Input.GetKey(KeyCode.RightArrow) && Time.time - inputStart >= 0.33) && !Input.GetKey(KeyCode.LeftArrow))
+        else if ((Input.GetKeyDown(KeyCode.L) ||
+                 Input.GetKey(KeyCode.L) && Time.time - inputStart >= 0.33) && !Input.GetKey(KeyCode.J))
         {
             // Modify position
             transform.position += new Vector3(1, 0, 0);
@@ -107,7 +107,7 @@ public class Group : MonoBehaviour
                 // It's not valid. revert.
                 transform.position += new Vector3(-1, 0, 0);
 
-            if (Input.GetKeyDown(KeyCode.RightArrow))
+            if (Input.GetKeyDown(KeyCode.L))
                 inputStart = Time.time;
         }
 
@@ -123,7 +123,7 @@ public class Group : MonoBehaviour
         }
 
         // Hard Drop
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             while (isValidGridPos())
             {
@@ -134,7 +134,7 @@ public class Group : MonoBehaviour
         }
 
         // Soft Drop and Fall
-        if (Input.GetKey(KeyCode.DownArrow) && Time.time - lastSoftDrop >= 0.2 ||
+        if (Input.GetKey(KeyCode.K) && Time.time - lastSoftDrop >= 0.2 ||
                  Time.time - lastFall >= 1)
         {
             // Modify position
@@ -163,7 +163,7 @@ public class Group : MonoBehaviour
             }
 
             lastFall = Time.time;
-            if (Input.GetKey(KeyCode.DownArrow))
+            if (Input.GetKey(KeyCode.K))
                 lastSoftDrop = Time.time;
         }
     }
